@@ -7,11 +7,15 @@
     $('.sidenav').sidenav();
     $('.parallax').parallax();
     $('.modal').modal();
-     $('.carousel').carousel();
+    $('.carousel').carousel();
   setInterval(function() {
     $('.carousel').carousel('next');
-  }, 2000); // every 2 seconds
+  }, 4500); // every 2 seconds
+    // $('.slider').slider();
     $('.slider').slider();
+  setInterval(function() {
+    $('.slider').carousel('next');
+  }, 4500);
     $('.tooltipped').tooltip();
     $('html, body').animate({
       scrollTop: $(".intro").offset().top

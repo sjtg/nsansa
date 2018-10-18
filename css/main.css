@@ -4,6 +4,10 @@ body {
 	color : #000000;
 }
 
+.navbar {
+	background-color:#4caf50;
+}
+
 nav li a {
 	color: #000000;
 }
@@ -46,4 +50,27 @@ span {
 
 .parallax-container{
 	height: 150px;
+}
+
+.titles {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+section #home{
+	padding-top: 50px;
+	margin-top: 20px;
+}
+
+p {
+  text-align: justify; 
+  -moz-text-align-last:center; 
+/*  text-align-last: center; */
+  
+}
+
+.contacts {
+	font-size: 14px;
+	font-weight: bold;
 }
